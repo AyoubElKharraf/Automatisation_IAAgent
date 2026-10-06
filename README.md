@@ -1,6 +1,14 @@
-# Automatisation IA Agent
+# Automatisation et agents IA — Travaux pratiques
 
-Travaux pratiques d'automatisation et d'agents IA.
+Ce dépôt rassemble progressivement les travaux pratiques et les exercices que je réalise dans le domaine de l'automatisation et de l'intelligence artificielle. L'objectif est de maîtriser les notions étudiées en les mettant en application : expérimenter différentes approches, écrire des programmes, tester les résultats et documenter les étapes ainsi que les concepts appris.
+
+Chaque TP est organisé dans son propre dossier et accompagné, lorsque c'est utile, d'un guide expliquant les objectifs, les notions, les commandes et les résultats obtenus. Le dépôt évoluera au fil des exercices.
+
+## Travaux pratiques
+
+| Dossier | Sujet | Contenu |
+|---|---|---|
+| [`TP1/`](./TP1/) | Automatisation RPA avec Python | Lecture de données Excel, automatisation d'un formulaire avec Selenium, Playwright et PyAutoGUI, et envoi d'un email de test. |
 
 ## TP1 — RPA avec Python
 
