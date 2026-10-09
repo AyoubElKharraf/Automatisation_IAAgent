@@ -9,12 +9,15 @@ Chaque TP est organisé dans son propre dossier et accompagné, lorsque c'est ut
 | Dossier | Sujet | Contenu |
 |---|---|---|
 | [`TP1/`](./TP1/) | Automatisation RPA avec Python | Lecture de données Excel, automatisation d'un formulaire avec Selenium, Playwright et PyAutoGUI, et envoi d'un email de test. |
+| [`TP2/`](./TP2/) | Traitement automatisé des factures (RPA) | Pipeline complet en Python : extraction Regex, structuration Pandas, prise de décision par seuil, export Excel, classement automatique, notifications SMTP et journal d'audit. |
+
+---
 
 ## TP1 — RPA avec Python
 
 Le dossier [`TP1/`](./TP1/) contient les scripts et le guide du TP d'automatisation d'un formulaire à partir d'Excel avec Selenium, Playwright et PyAutoGUI.
 
-### Installation rapide (Windows / PowerShell)
+### Installation et exécution rapide (Windows / PowerShell)
 
 Depuis la racine du dépôt :
 
@@ -24,8 +27,3 @@ py -m venv .venv
 python -m pip install -r requirements.txt
 Copy-Item .\TP1\contacts.example.xlsx .\TP1\contacts.xlsx
 python .\TP1\tp1.py
-```
-
-Les scripts Selenium et Playwright utilisent le formulaire local `TP1/formulaire_test.html`. PyAutoGUI pilote la fenêtre active ; consulte le guide avant de le lancer.
-
-Les emails sont désactivés par défaut. Le classeur personnel `TP1/contacts.xlsx`, les secrets et l'environnement virtuel ne doivent pas être publiés. Pour le test email sécurisé et les explications détaillées, consulte [`TP1/GUIDE_TP_RPA.md`](./TP1/GUIDE_TP_RPA.md).
